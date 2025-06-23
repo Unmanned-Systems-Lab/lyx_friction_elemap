@@ -1,0 +1,248 @@
+bush:
+  color:
+    B: 75
+    G: 25
+    R: 230 # 玫红色
+  friction:
+    mean: 0.35
+    variance: 0.12
+  index: 0  
+  name: bush
+  soft_contact: []
+
+dirt:
+  color:
+    B: 75
+    G: 180
+    R: 60 # 绿色
+  friction:
+    mean: 0.4
+    variance: 0.15
+  index: 1  
+  name: dirt
+  soft_contact: []
+
+fence:
+  color:
+    B: 128
+    G: 128
+    R: 0 # 水绿
+  friction:
+    mean: 0.6
+    variance: 0.1
+  index: 2  
+  name: fence
+  soft_contact: []
+
+grass:
+  color:
+    B: 128
+    G: 128
+    R: 128 # 灰
+  friction:
+    mean: 0.3
+    variance: 0.12
+  index: 3  
+  name: grass
+  soft_contact: []
+
+gravel:
+  color:
+    B: 180
+    G: 30
+    R: 145 # 紫
+  friction:
+    mean: 0.65
+    variance: 0.12
+  index: 4  
+  name: gravel
+  soft_contact: []
+
+log:
+  color:
+    B: 0
+    G: 128
+    R: 128 # 棕绿
+  friction:
+    mean: 0.5
+    variance: 0.1
+  index: 5  
+  name: log
+  soft_contact: []
+
+object:
+  color:
+    B: 190
+    G: 190
+    R: 250 # 浅粉
+  friction:
+    mean: null
+    variance: null
+  index: 6  
+  name: other-object  # 与config中保持一致
+  soft_contact: []
+
+mud:
+  color:
+    B: 25
+    G: 225
+    R: 255 # 黄
+  friction:
+    mean: 0.25
+    variance: 0.1
+  index: 7  
+  name: mud
+  soft_contact: []
+
+
+structure:
+  color:
+    B: 40
+    G: 110
+    R: 170 # 棕
+  friction:
+    mean: null
+    variance: null
+  index: 8  
+  name: structure
+  soft_contact: []
+
+
+other-terrain:
+  color:
+    B: 240
+    G: 240
+    R: 70 # 水绿（亮）
+  friction:
+    mean: null
+    variance: null
+  index: 9  
+  name: other-terrain
+  soft_contact: []
+
+rock:
+  color:
+    B: 195
+    G: 255
+    R: 170 # 浅绿(亮)
+  friction:
+    mean: 0.7
+    variance: 0.1
+  index: 10  
+  name: rock
+  soft_contact: []
+
+sky:
+  color:
+    B: 128
+    G: 0
+    R: 0 # 蓝
+  friction:
+    mean: null
+    variance: null
+  index: 11  
+  name: sky
+  soft_contact: []
+
+tree-foliage:
+  color:
+    B: 60
+    G: 245
+    R: 210 # 黄绿(亮)
+  friction:
+    mean: 0.3
+    variance: 0.1
+  index: 12  
+  name: tree-foliage
+  soft_contact: []
+
+tree-trunk:
+  color:
+    B: 230
+    G: 50
+    R: 240 # 紫(亮)
+  friction:
+    mean: 0.5
+    variance: 0.12
+  index: 13  
+  name: tree-trunk
+  soft_contact: []
+
+water:
+  color:
+    B: 200
+    G: 130
+    R: 0 # 蓝绿
+  friction:
+    mean: null
+    variance: null
+  index: 14  
+  name: water
+  soft_contact: []
+
+# ------------------------------------------------------------
+# # asphalt/concrete 对应config中的asphalt类别
+# asphalt:
+#   color:
+#     B: 75
+#     G: 25
+#     R: 230 # 红色
+#   friction:
+#     mean: 0.7
+#     variance: 0.1
+#   index: 0  
+#   name: asphalt
+#   soft_contact: []
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+pole:
+  color:
+    B: 200
+    G: 250
+    R: 255 # 米白
+  friction:
+    mean: 0.6
+    variance: 0.08
+  index: 11  
+  name: pole
+  soft_contact: []
+
+vehicle:
+  color:
+    B: 0
+    G: 0
+    R: 128 # 红
+  friction:
+    mean: null
+    variance: null
+  index: 12  
+  name: vehicle
+  soft_contact: []
+
+
+
+
+
+
+
+
+
